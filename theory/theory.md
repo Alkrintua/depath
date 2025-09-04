@@ -19,3 +19,16 @@ Google Cloud Platform (GCP) is a suite of cloud computing services provided by G
 Storage: Cloud Storage, Persistent Disk, Transfer appliance, Transfer Service.
 Database: Cloud SQL, Cloud Bigtable, Cloud Spanner, Cloud Datastore.
 Backup Services: Nearline (frequently accessed data), Coldline (infrequently accessed data).
+
+## What is data modeling?
+
+Data modeling refers to the process of creating a visual representation of the places where an application or software stores information, as well as how these sources of data interact with each other. Simply put, data modeling illustrates how data storage is organized.
+
+Depending on the design, data modeling occurs on three levels—conceptual, logical, and physical. Each level has a different purpose and target audience. When creating a data model, you typically go from top to bottom: from drafting a data model outline based on business needs and requirements to designing a database.
+
+1. Conceptual. This is a high-level data model that does not include implementation details. At this level, your data model won't contain granular information. For now, you are most interested in a detailed description of entity types, relationships, and constraints.
+2. Logical. This level of data modeling is implemented using a commercial DBMS. The logical level is the mapping step between the conceptual model and the implementation data model for the DBMS being used on the project.
+3. Physical. This is the last and the lowest modeling level. All information collected at the physical model design level is converted into the relational model. For this model, you specify data types, internal storage structures, table organizations, indexes, access paths, physical design parameters, and naming conventions for the database objects.
+At this point, the target data management system and the model must correspond to a set of the system's FRs and NFRs, e.g., what kind of data will be queried from the database and how quickly it must be processed, respectively.
+
+
