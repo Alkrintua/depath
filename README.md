@@ -27,7 +27,6 @@
 - базові утиліти (ls, cd, cat, grep, awk, sed)  
 - робота з файлами та правами доступу  
 - мережеві команди (curl, wget, netstat)  
-- bash-скрипти для автоматизації  
 - Docker basics (контейнери, docker-compose)  
 
 ### 🏛️ Data Warehouse & Data Lake (Теорія)
@@ -94,12 +93,7 @@
 ## 🔗 Корисні посилання
 
 - [Data Engineering Book — Databases](https://github.com/oleg-agapov/data-engineering-book/blob/master/book/2-beginner-path/2-1-databases/databases.md)  
-- [Vertabelo — ER Diagram Cheat Sheet](https://vertabelo.com/blog/er-diagram-cheat-sheet/)  
-- [DataCamp — Data Modeling](https://www.datacamp.com/blog/data-modeling)  
-- [Wikipedia — Dimensional modeling](https://en.wikipedia.org/wiki/Dimensional_modeling)  
 - [Exasol — Data Warehouse Basics](https://www.exasol.com/hub/data-warehouse/concepts-basics/)  
-- [Vertabelo — What is Data Warehousing](https://vertabelo.com/blog/what-is-data-warehousing/)  
-- [SLA Institute — Data Warehouse Tutorial](https://www.slainstitute.com/data-warehouse-tutorial-for-beginners/)  
 - [Spark Cluster repository](https://github.com/halltape/HalltapeSparkCluster/tree/main)
 ---
 
@@ -120,6 +114,7 @@
 
 - **Автор:** Oleksandr Kryvoshei  
 - **LinkedIn:** [linkedin.com/in/...](https://www.linkedin.com/in/oleksandr-kryvoshei-b28b30237/)  
+
 
 
 
