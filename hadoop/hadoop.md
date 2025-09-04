@@ -1,1 +1,9 @@
-Для вивчення Hadoop
+Hadoop is an open source framework managed by the Apache Software Foundation. Open source refers to the fact that it is freely available, and its source code can be changed in accordance with user requirements. Apache Hadoop is designed to store and process big data effectively. It can handle various forms of structured and unstructured data and provides enough flexibility for collecting, processing and analyzing data.
+
+Hadoop includes 2 main systems. First is Hadoop Distributed File System (HDFS), which is the storage system for Hadoop spread out over multiple machines. The second one is the MapReduce engine—the algorithm that filters, sorts and uses the database input in some way. HDFS is very closely coupled with MapReduce so data from HDFS is transferred to MapReduce for further processing. When HDFS receives data, it splits this information into separate blocks and allocates them to different nodes in a cluster which allows it to perform tasks in parallel and work more efficiently.
+
+Amazon EMR and GCP Dataproc are managed Hadoop and Spark services, which are generally used for big data processing, streaming, interactive analysis and machine learning. EMR and Dataproc clusters can be created with many of the popular Apache Hadoop ecosystem components installed. They support the installation and configuration of these applications. Some of the applications include Apache Spark, Apache Hadoop, Apache Pig, Apache Hive and Presto.
+
+In fact, Apache Hadoop is not a distribution because each component can be downloaded separately. Native Hadoop deployment, “Vanilla" Hadoop is provided by the Apache Software Foundation. It is 100% community-driven. Binary versions of Hadoop components are available on the website for each of the ecosystem projects. Commonly, utilizing a vanilla version of Apache Hadoop equals to rolling your own Linux distribution.
+However, tying everything together is labor-intensive. Companies bundle Hadoop with open source, their own proprietary bricks and other tools to design distributions.
+
