@@ -23,60 +23,73 @@
 
 ## 🛠️ План вивчення
 
-### 🖥️ Основні команди в Linux
-- базові утиліти (ls, cd, cat, grep, awk, sed)
-- робота з файлами та правами
-- мережеві команди
+### 🖥️ Linux & Bash
+- базові утиліти (ls, cd, cat, grep, awk, sed)  
+- робота з файлами та правами доступу  
+- мережеві команди (curl, wget, netstat)  
+- bash-скрипти для автоматизації  
+- Docker basics (контейнери, docker-compose)  
 
-### 🏛️ Data Warehouse (Теорія по DWH)
-- Що таке Data Warehouse  
-- OLTP-системи  
-- OLAP-системи  
-- Архітектура DWH  
-- Підходи до проєктування DWH  
-- Озеро даних (Data Lake)  
-- Batch-обробки і Lambda-архітектура  
-- Kappa-архітектура  
+### 🏛️ Data Warehouse & Data Lake (Теорія)
+- OLTP vs OLAP  
+- Архітектура DWH (Kimball / Inmon / Lakehouse)  
+- Data Lakehouse (Iceberg, Delta, Hudi)  
+- Batch-обробка, Lambda- та Kappa-архітектури  
 
-### 📐 Нормальні форми
-- 1NF, 2NF, 3NF  
-- BCNF та далі  
-
-### 🗂️ Моделі даних
+### 📐 Моделювання даних
+- Нормальні форми (1NF, 2NF, 3NF, BCNF)  
 - ER-діаграми  
 - Dimensional modeling  
 - Star / Snowflake schema  
 - Slowly Changing Dimensions (SCD)  
 
-### 📑 Індекси та партиції
-- кластеризовані й некластеризовані індекси  
-- partitioning таблиць  
-- performance considerations  
+### 📑 Оптимізація зберігання
+- Індекси (кластеризовані / некластеризовані)  
+- Partitioning і clustering таблиць  
+- Performance considerations  
 
-### 🔥 Spark
-- Основи роботи з Spark  
-- PySpark API  
-- Spark SQL  
-- PartitionBy / BucketBy  
-- Оптимізація й архітектура Spark  
+### 🦆 Data Storage (DuckDB / MotherDuck / Iceberg)
+- Локальний рушій DuckDB  
+- MotherDuck як хмарне рішення  
+- Iceberg tables: snapshots, partitioning, schema evolution  
+- Snowflake & BigQuery basics  
+- S3 / GCS як базове сховище  
 
-### 🐘 Hadoop
-- HDFS архітектура  
-- MapReduce  
-- Екосистема Hadoop (Hive, Pig, HBase)  
+### 🔄 Data Ingestion
+- Airbyte (налаштування конекторів)  
+- dlt (Python-first ingestion)  
+- Fivetran (огляд як SaaS-альтернатива)  
 
-### ⏳ Airflow
-- DAG структура  
-- Task dependencies  
-- Schedulers, Operators  
-- Приклади простих DAG-ів  
+### 🧩 Data Transformation
+- dbt (моделі, тести, документація)  
+- SQL Mesh (огляд альтернативи)  
+- Pandas / Polars для аналітичних трансформацій  
+- PySpark для масивних batch-завдань  
 
-### 📡 Apache Kafka
-- Принцип роботи (producer → topic → consumer)  
-- Partitioning, offsets  
-- Streaming з Kafka  
+### ⚙️ Data Orchestration
+- Airflow (DAG структура, operators, schedulers)  
+- Prefect (flow-based orchestration)  
+- Dagster (asset-based orchestration)  
+
+### 📊 Serving & Reverse ETL
+- Побудова marts (золота зона)  
+- Star schema для BI  
+- Hightouch (reverse ETL концепт)  
+
+### ✅ Data Quality & Security
+- dbt tests (unique, not_null, accepted_values, freshness)  
+- Data contracts та SLA  
+- Secrets management (env, Airflow Connections)  
+- IAM політики та доступи до S3 / BigQuery / Snowflake  
+- Маскування чутливих даних  
 
 ---
+
+### 📝 Мови програмування
+- **SQL**: аналітичні запити, DDL/DML, оптимізація  
+- **Python**: pandas, polars, PySpark, dlt  
+- **Bash**: shell-скрипти, автоматизація, інтеграція з Docker  
+
 
 ## 🔗 Корисні посилання
 
@@ -107,4 +120,5 @@
 
 - **Автор:** Oleksandr Kryvoshei  
 - **LinkedIn:** [linkedin.com/in/...](https://www.linkedin.com/in/oleksandr-kryvoshei-b28b30237/)  
+
 
