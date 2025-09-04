@@ -151,6 +151,8 @@ crontab -e
 
 0 19 * * * python3 /home/script.py
 
+https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/
+
 
 При першому запуску `crontab -e` система попросить вибрати редактор (nano або vim).  
 У nano збереження = `ctrl+s`, вихід = `ctrl+x`.  
