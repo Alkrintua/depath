@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=WYV8hvJOAQE&list=WL&index=1
 pip install duckdb          # Python
 conda install -c conda-forge duckdb   # Conda
 duckdb                      # CLI
+```
 
 🔹 Підключення
 
