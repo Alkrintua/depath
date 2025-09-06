@@ -85,7 +85,7 @@
 - [Spark Cluster repository](https://github.com/halltape/HalltapeSparkCluster/tree/main)
 - [dbt-duckdb](https://github.com/dbt-labs/jaffle_shop_duckdb)
 - https://github.com/pipelinetoinsights/elt-pipeline-with-dlt-and-dbt
-- 
+- https://github.com/bytewax/awesome-public-real-time-datasets
 ---
 
 ## 📅 Roadmap
@@ -105,6 +105,7 @@
 
 - **Автор:** Oleksandr Kryvoshei  
 - **LinkedIn:** [linkedin.com/in/...](https://www.linkedin.com/in/oleksandr-kryvoshei-b28b30237/)  
+
 
 
 
