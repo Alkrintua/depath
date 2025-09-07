@@ -83,9 +83,11 @@
 - [Data Engineering Book — Databases](https://github.com/oleg-agapov/data-engineering-book/blob/master/book/2-beginner-path/2-1-databases/databases.md)  
 - [Exasol — Data Warehouse Basics](https://www.exasol.com/hub/data-warehouse/concepts-basics/)  
 - [Spark Cluster repository](https://github.com/halltape/HalltapeSparkCluster/tree/main)
-- [dbt-duckdb](https://github.com/dbt-labs/jaffle_shop_duckdb)
-- https://github.com/pipelinetoinsights/elt-pipeline-with-dlt-and-dbt
 - https://github.com/bytewax/awesome-public-real-time-datasets
+- https://github.com/ankurchavda/streamify
+- https://github.com/airscholar/RedditDataEngineering
+- https://github.com/damklis/DataEngineeringProject?tab=readme-ov-file#how-it-works
+- https://github.com/darshilparmar/dataengineering-youtube-analysis-project
 ---
 
 ## 📅 Roadmap
@@ -105,6 +107,7 @@
 
 - **Автор:** Oleksandr Kryvoshei  
 - **LinkedIn:** [linkedin.com/in/...](https://www.linkedin.com/in/oleksandr-kryvoshei-b28b30237/)  
+
 
 
 
