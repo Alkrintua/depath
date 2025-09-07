@@ -88,6 +88,8 @@
 - https://github.com/airscholar/RedditDataEngineering
 - https://github.com/damklis/DataEngineeringProject?tab=readme-ov-file#how-it-works
 - https://github.com/darshilparmar/dataengineering-youtube-analysis-project
+- https://github.com/ziritrion/dataeng-zoomcamp/tree/main
+- https://github.com/garage-education/data-engineering-projects
 ---
 
 ## 📅 Roadmap
@@ -107,6 +109,7 @@
 
 - **Автор:** Oleksandr Kryvoshei  
 - **LinkedIn:** [linkedin.com/in/...](https://www.linkedin.com/in/oleksandr-kryvoshei-b28b30237/)  
+
 
 
 
